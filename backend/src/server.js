@@ -5,7 +5,7 @@ const path = require('path');
 const routes = require('./routes');
 const app = express();
 
-mongoose.connect('<link para mongobd>',{
+mongoose.connect('<configuração do Atlas Mongodb>',{
     useNewUrlParser: true,
     useUnifiedTopology: true,
 });
