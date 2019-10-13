@@ -5,7 +5,7 @@ const path = require('path');
 const routes = require('./routes');
 const app = express();
 
-mongoose.connect('<configuração do Atlas Mongodb>',{
+mongoose.connect('mongodb+srv://minduim:kafka123@cluster0-rhrxc.mongodb.net/test',{
     useNewUrlParser: true,
     useUnifiedTopology: true,
 });
